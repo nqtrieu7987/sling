@@ -30,16 +30,16 @@ defmodule Sling.Mixfile do
   #
   # Type `mix help deps` for examples and options.
   defp deps do
-    [{:phoenix, "~> 1.2.1"},
+    [{:phoenix, "~> 1.3"},
      {:phoenix_pubsub, "~> 1.0"},
      {:phoenix_ecto, "~> 3.0"},
      {:postgrex, ">= 0.0.0"},
      {:phoenix_html, "~> 2.6"},
-     {:phoenix_live_reload, "~> 1.0", only: :dev},
+     {:phoenix_live_reload, "~> 1.1", only: :dev},
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
      {:comeonin, "~> 2.5"},
-     {:guardian, "~> 0.13.0"},
+     {:guardian, "~> 0.14.0"},
      {:corsica, "~> 0.5.0"},
      {:scrivener_ecto, "~> 1.0"}]
   end
